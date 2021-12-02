@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#leadership" class="nav__link">Leadership Positions</a></li>
+                <li class="nav__item"><a href="#achievements" class="nav__link">Achievements</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi I'm <strong>Yong Qi</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Personal Portfolio</p>
+        <div>
+            <img src="../img/yongqi.png" alt="yong qi" class="intro__img" style="width: 50%">
+        </div>
+    </section>
+
+
+    <section class="about-me" id="about">
+        <h2 class="section__tittle section__title--about">ABOUT ME</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div class="about-me__body">
+            <p>A 17 year-old that loves sports and video games! I'm an aspiring cyber security researcher that helps in the war against cybercrime. I seek to constantly improve myself and takes pride in whatever i do and works towards my personal goals in a determined manner. Being a leader, I believe I am able to lead a team well to achieve a shared and common goal</p>
+        </div>
+
+        <a href="#leadership" class="btn">Leadership Positions</a>
+    </section>
+
+
+    <section class="leadership-positions" id="leadership">
+        <h2 class="section__title section__title--leadership">Leadership Positions</h2>
+        <div class="leadership-pos">
+            <div>
+                <h3 class="year">2018</h3>
+                <p class="leadership">
+                    <ul>Badminton Lower Secondary CCA head</ul>
+                    <ul>Frisbee CCA Captain</ul>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="year">2019</h3>
+                <p class="leadership">
+                    <ul>Badminton CCA Captain</ul>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="year">2020</h3>
+                <p class="leadership">
+                    <ul>Badminton CCA Captain</ul>
+                </p>
+            </div>
+        </div>
+
+        <a href="#achievements" class="btn">My Achievements</a>
+    </section>
+
+    <section class="my-achievements" id="achievements">
+        <h2 class="section title-achievements">My Achievements</h2>
+        
+        <div class="achievements-body">
+            <p class="achievements">
+                <li> 2016 EAGLES Award</li>
+                <li> 2018 MCC Land National Wushu and Sanda Championships (Gold)</li>
+                <li> 2019 90 percentile rank in HSK level 5 Chinese Proficiency Test</li>
+                <li> 2019 Gen2x Ultimate Frisbee Tournament (Bronze)</li>
+                <li> 2019 Project Educar Ultimate Frisbee Tournament (Bronze)</li>
+                <li> 2020 Metanoia Ultimate Frisbee Tournament (silver)</li>
+                <li> 2020 EAGLES Award</li>
+            </p>
+        </div>
+
+        <a href="#skills" class="btn">My Skills</a>
+    </section>
+
+    <section class="my-skills" id="skills">
+        <h2 class="section__title">My Skills</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <a href="https://www.adobe.com/sg/products/illustrator/free-trial-download.html" class="portfolio__item">
+                <img src="../img/illustrator.png" alt="illustrator" class="portfolio__img">
+            </a>
+
+            <a href="https://www.adobe.com/sg/products/photoshop/free-trial-download.html" class="portfolio__item">
+                <img src="../img/photoshop.png" alt="photoshop" class="portfolio__img">
+            </a>
+
+            <a href="https://www.adobe.com/sg/products/premiere.html" class="portfolio__item">
+                <img src="../img/premier.png" alt="premier pro" class="portfolio__img">
+            </a>
+
+            <a href="https://www.python.org/" class="portfolio__item">
+                <img src="../img/python.png" alt="python" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer">
+        <a href="mailto:tangyongqi44@yahoo.com" class="footer__link">tangyongqi44@yahoo.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link"href="https://www.linkedin.com/in/tang-yong-qi-35b676183/">LinkedIn
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link"href="https://tangyongqi44.wixsite.com/website">Personal website
+                    <i class="fab fa-wix"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link"href="https://github.com/Notyq">Github
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
